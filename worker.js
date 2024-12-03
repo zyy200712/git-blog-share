@@ -2,7 +2,7 @@
 const CONFIG = {
     title: '🕮 BAOER の BLOG 🕮',
     favicon: 'https://pic.wtr.cc/i/2024/11/29/6749922b0967c.jpeg',
-    enablePasswordProtection: false  // 设置为true时启用密码验证，false时禁用
+    enablePasswordProtection: true  // 设置为true时启用密码验证，false时禁用
 };
 
 // 古诗词数据
@@ -1543,18 +1543,25 @@ function formatDate(date) {
     return `${year}-${month}-${day}`;
 }
 
+// 将UTC时间戳转换为北京时间
+function convertToBeiJingTime(timestamp) {
+    const utcDate = new Date(Number(timestamp) * 1000);
+    const beijingDate = new Date(utcDate.getTime() + 8 * 60 * 60 * 1000);
+    return beijingDate;
+}
+
 // 生成 API 限额信息的 HTML
 function generateApiLimitHtml(rateLimit) {
     const used = parseInt(rateLimit.used) || 0;
     const limit = parseInt(rateLimit.limit) || 1;
     const remaining = parseInt(rateLimit.remaining) || 0;
-    const resetTime = new Date(Number(rateLimit.reset) * 1000);
+    const resetTime = convertToBeiJingTime(rateLimit.reset);
     
     return `
         <div class="api-limit-info">
             <p>API 限额: ${remaining} / ${limit}</p>
             <p>已使用: ${used}</p>
-            <p>重置时间: ${resetTime.toLocaleTimeString()}</p>
+            <p>重置时间: ${resetTime.toLocaleTimeString('zh-CN', { hour12: false })}</p>
             <div class="progress-bar">
                 <div class="progress-bar-fill" style="width: ${(used / limit) * 100}%"></div>
             </div>
@@ -1600,8 +1607,8 @@ async function fetchWithRetry(url, options, env, maxRetries = 3) {
             };
             
             if (response.status === 403 && rateLimit.remaining === '0') {
-                const resetDate = new Date(Number(rateLimit.reset) * 1000);
-                throw new Error(`API 限制已达上限（${rateLimit.limit}次/小时），将在 ${resetDate.toLocaleString()} 重置`);
+                const resetDate = convertToBeiJingTime(rateLimit.reset);
+                throw new Error(`API 限制已达上限（${rateLimit.limit}次/小时），将在 ${resetDate.toLocaleString('zh-CN', { hour12: false })} 重置`);
             }
             
             if (!response.ok) {
