@@ -10,9 +10,9 @@
 
 # 效果展示
 
-![image-20241203115025627](https://i0.hdslb.com/bfs/article/c8dc59c383792532a5f622b14c44ac6d415325959.png)
+![image-20241203115025627](https://pic.wtr.cc/i/2024/12/03/674e918e3e638.jpeg)
 
-![image-20241203115108087](https://i0.hdslb.com/bfs/article/22d300147fa99381837d22e05713bfe8415325959.png)
+![image-20241203115108087](https://pic.wtr.cc/i/2024/12/03/674e91fc9e2c9.jpeg)
 
 # 部署准备
 
@@ -36,9 +36,9 @@
 
 访问  https://github.com/你的github用户名?tab=repositories
 
-![image-20241203115858791](https://i0.hdslb.com/bfs/article/1994d2b3d9bb3af636f4189f9c07dd9a415325959.png)
+![image-20241203115858791](https://pic.wtr.cc/i/2024/12/03/674e926b5c4f7.jpeg)
 
-![image-20241203115953704](https://i0.hdslb.com/bfs/article/124610c8b04d19067fee922852830000415325959.png)
+![image-20241203115953704](https://pic.wtr.cc/i/2024/12/03/674e926b881bb.jpeg)
 
 填写仓库名字
 
@@ -48,7 +48,7 @@ public还是Private看个人喜好，自己看就使用Private，后面加密码
 
 停留在这个界面
 
-![image-20241203120209242](https://i0.hdslb.com/bfs/article/94d248c9d064f7f698d91025f087ecdc415325959.png)
+![image-20241203120209242](https://pic.wtr.cc/i/2024/12/03/674e92982de58.jpeg)
 
 ## 2、本地创建文件夹
 
@@ -56,7 +56,7 @@ public还是Private看个人喜好，自己看就使用Private，后面加密码
 
 把你要上传的.md文件放到这个文件夹
 
-![image-20241203120405636](https://i0.hdslb.com/bfs/article/ecd06958fe9076e932b0cf1620cb2274415325959.png)
+![image-20241203120405636](https://pic.wtr.cc/i/2024/12/03/674e92acb2ac7.jpeg)
 
 从[1143520/git-blog-share](https://github.com/1143520/git-blog-share)下载 git_upload.bat 和 git_delete.bat
 
@@ -64,19 +64,19 @@ public还是Private看个人喜好，自己看就使用Private，后面加密码
 
 双击运行git_upload.bat 
 
-![image-20241203120644895](https://i0.hdslb.com/bfs/article/654ff05528e791aeed50ddc9a9f8a252415325959.png)
+![image-20241203120644895](https://pic.wtr.cc/i/2024/12/03/674e92c3e4f6b.jpeg)
 
 因为 github 国内访问不畅，你知道的呀，需要开启代理
 
 开启代理确保能够正常访问后,在设置中找到自己的代理端口，比如我的是5229
 
-![image-20241203120955954](https://i0.hdslb.com/bfs/article/c66ae2da12372a3b9328d507e01a12a1415325959.png)
+![image-20241203120955954](https://pic.wtr.cc/i/2024/12/03/674e92d9473b6.jpeg)
 
 在git_upload.bat 填入5229之后回车
 
 复制仓库的git地址填入之后回车
 
-![image-20241203121200103](https://i0.hdslb.com/bfs/article/0200fd669d8580398f2682cd473d3d05415325959.png)
+![image-20241203121200103](https://pic.wtr.cc/i/2024/12/03/674e92e9d6082.jpeg)
 
 选择需要上传的文件编号，0为全部上传，和git是一样的，只是增量上传
 
@@ -88,9 +88,9 @@ public还是Private看个人喜好，自己看就使用Private，后面加密码
 
 
 
-![image-20241203121318967](https://i0.hdslb.com/bfs/article/ca0b5a0769be1905d182b0022e99a319415325959.png)
+![image-20241203121318967](https://pic.wtr.cc/i/2024/12/03/674e93015ef2a.jpeg)
 
-![image-20241203121758779](https://i0.hdslb.com/bfs/article/f0bf5b08a2bc0136fba3905a02cbaa0e415325959.png)
+![image-20241203121758779](https://pic.wtr.cc/i/2024/12/03/674e9314df60d.jpeg)
 
 SUCCESS即为成功
 
@@ -98,11 +98,11 @@ SUCCESS即为成功
 
 可以看到已经有了文件
 
-![image-20241203122112739](https://i0.hdslb.com/bfs/article/d67c2c8637c5f4b978a89ccd93ec9a7d415325959.png)
+![image-20241203122112739](https://pic.wtr.cc/i/2024/12/03/674e9327bfd06.jpeg)
 
 本地生成了git的默认配置和bat的配置文件夹，注意不要误删
 
-![image-20241203122221525](https://i0.hdslb.com/bfs/article/25b4bc65802da3e5a581cdb51b450a86415325959.png)
+![image-20241203122221525](https://pic.wtr.cc/i/2024/12/03/674e9338aee07.jpeg)
 
 
 
@@ -112,38 +112,38 @@ git_delete.bat 是用于删除仓库某个文件，本地不变，使用方法�
 
 进入CF点击workers and pages进行创建
 
-![image-20241203122656338](https://i0.hdslb.com/bfs/article/16b798e7a14f57decb9b8e2925df7853415325959.png)
+![image-20241203122656338](https://pic.wtr.cc/i/2024/12/03/674e934813d9e.jpeg)
 
-![image-20241203122732142](https://i0.hdslb.com/bfs/article/d1da8305cdde39f60b726f9478f25769415325959.png)
+![image-20241203122732142](https://pic.wtr.cc/i/2024/12/03/674e935b72b1a.jpeg)
 
 
 
 自定义名称然后部署
 
-![image-20241203122850021](https://i0.hdslb.com/bfs/article/00cc3286bebcd2c7f8279ac53a345193415325959.png)
+![image-20241203122850021](https://pic.wtr.cc/i/2024/12/03/674e936f25d09.jpeg)
 
 
 
 继续处理项目
 
-![image-20241203122956543](https://i0.hdslb.com/bfs/article/68815739b95a913440cb905dc1417891415325959.png)
+![image-20241203122956543](https://pic.wtr.cc/i/2024/12/03/674e9386c6609.jpeg)
 
 
 
 编辑添加以下变量
 
-| 变量名 | 必填 | 说明 |
-|--------|------|------|
-| GITHUB_TOKEN | 是 | GitHub Personal Access Token，用于访问仓库内容 |
-| GITHUB_OWNER | 是 | GitHub 用户名或组织名 |
-| GITHUB_REPO | 是 | 博客内容所在的仓库名称 |
-| ADMIN_PASSWORD | 否 | 博客管理员密码，仅在 enablePasswordProtection 为 true 时需要 |
+| 变量名         | 必填 | 说明                                                         |
+| -------------- | ---- | ------------------------------------------------------------ |
+| GITHUB_TOKEN   | 是   | GitHub Personal Access Token，用于访问仓库内容               |
+| GITHUB_OWNER   | 是   | GitHub 用户名或组织名                                        |
+| GITHUB_REPO    | 是   | 博客内容所在的仓库名称                                       |
+| ADMIN_PASSWORD | 否   | 博客管理员密码，仅在 enablePasswordProtection 为 true 时需要 |
 
 GITHUB_TOKEN在登录github后访问
 
 [Personal Access Tokens (Classic)](https://github.com/settings/tokens)  手动生成，需要repo也就是仓库查看的权限（公开仓库限额太少，使用token可以增加限额，也可以访问私库）
 
-点击![image-20241203123625405](https://i0.hdslb.com/bfs/article/0c2dd664314034e8d0bb858b3d4f3a7a415325959.png)
+点击![image-20241203123625405](https://pic.wtr.cc/i/2024/12/03/674e939c23f93.jpeg)
 
 选择Generate new token (classic)
 
@@ -151,39 +151,39 @@ GITHUB_TOKEN在登录github后访问
 
 名称随意，过期时间自己把握，repo一定要打勾
 
-![image-20241203123847215](https://i0.hdslb.com/bfs/article/f7bd4f879ef3cdea8d4ae09ce049de85415325959.png)
+![image-20241203123847215](https://pic.wtr.cc/i/2024/12/03/674e93b1c90e6.jpeg)
 
-点击底下的![image-20241203123916175](https://i0.hdslb.com/bfs/article/0765efa1f985e76364d391f2599ae610415325959.png)
+点击底下的![image-20241203123916175](https://pic.wtr.cc/i/2024/12/03/674e93c3587c1.jpeg)
 
 复制token （只显示一次）填入密钥类型的变量，变量名为GITHUB_TOKEN
 
 相对应的填入其他变量
 
-![image-20241203124351425](https://i0.hdslb.com/bfs/article/fdc3497ade8cd540bb9ddef3c86a51c2415325959.png)
+![image-20241203124351425](https://pic.wtr.cc/i/2024/12/03/674e93d38b87c.jpeg)
 
 然后点击编辑代码
 
-![image-20241203124426533](https://i0.hdslb.com/bfs/article/e6afca22260539dcb3e5aab0f3a381af415325959.png)
+![image-20241203124426533](https://pic.wtr.cc/i/2024/12/03/674e93e88fce7.jpeg)
 
 将[git-blog-share/worker.js at main · 1143520/git-blog-share](https://github.com/1143520/git-blog-share/blob/main/worker.js)的内容复制后粘贴到workers全选替换之后部署
 
-![image-20241203124546486](https://i0.hdslb.com/bfs/article/b5f31d61ef0584963519c048d4f776c0415325959.png)
+![image-20241203124546486](https://pic.wtr.cc/i/2024/12/03/674e93f97f932.jpeg)
 
-![image-20241203124618561](https://i0.hdslb.com/bfs/article/e13b6a3dc6f514a94026ba8ca3f6f420415325959.png)
+![image-20241203124618561](https://pic.wtr.cc/i/2024/12/03/674e9428ac356.jpeg)
 
 选择是否启用密码验证，和设置站点标题和logo
 
-![image-20241203125153423](https://i0.hdslb.com/bfs/article/6b4820e67e9cdd3cc6ffdc777c02a232415325959.png)
+![image-20241203125153423](https://pic.wtr.cc/i/2024/12/03/674e943ce3b3a.jpeg)
 
 之后点击访问大功告成
 
-![image-20241203124711962](https://i0.hdslb.com/bfs/article/efe8f2848d1ab74d54a63ec2180717ec415325959.png)
+![image-20241203124711962](https://pic.wtr.cc/i/2024/12/03/674e944e20db3.jpeg)
 
 # 补充
 
 ## 1、自定义域名
 
-![image-20241203124823695](https://i0.hdslb.com/bfs/article/ae844c125afef03e274ec59ebd899c6d415325959.png)
+![image-20241203124823695](https://pic.wtr.cc/i/2024/12/03/674e946221c8e.jpeg)
 
 ## 2、填入变量注意前后不要有空格
 
