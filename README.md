@@ -1,0 +1,130 @@
+# Git-Blog
+
+一个基于 GitHub + Cloudflare Workers 构建的轻量级博客系统。
+
+## 特性
+
+- 🎨 支持深色/浅色主题切换
+- 📱 响应式设计，完美适配移动端
+- 🚀 基于 Cloudflare Workers，访问速度快
+- 📝 支持 Markdown 文章渲染
+- 🔍 内置搜索功能
+- 💬 集成评论系统
+- 🎯 无需数据库，文章直接存储在 GitHub
+- 🔒 可选的密码保护功能
+- 🖼️ 自定义网站图标和标题
+- 📜 内置优美的古诗词展示
+
+## 快速开始
+
+### 前置要求
+
+- GitHub 账号
+- Cloudflare 账号
+- Node.js 环境
+
+### 安装步骤
+
+1. Fork 本仓库到你的 GitHub 账号下
+
+2. 创建 GitHub Personal Access Token
+   - 访问 GitHub Settings -> Developer settings -> Personal access tokens
+   - 点击 "Generate new token (classic)"
+   - 勾选 `repo` 权限
+   - 生成并保存 token（注意：token 只显示一次）
+
+3. 修改配置文件
+   打开 `worker.js`，修改 CONFIG 对象：
+   ```javascript
+   const CONFIG = {
+       title: '你的博客标题',
+       favicon: '你的网站图标URL',
+       enablePasswordProtection: false  // 是否启用密码保护
+   };
+   ```
+
+4. 部署到 Cloudflare Workers
+   - 登录 Cloudflare 控制台
+   - 创建新的 Worker
+   - 将 `worker.js` 的内容复制到 Worker 编辑器中
+   - 在 Worker 的设置中配置环境变量：
+     - `GITHUB_TOKEN`: 你的 GitHub Personal Access Token
+     - `GITHUB_OWNER`: 你的 GitHub 用户名
+     - `GITHUB_REPO`: 你的博客仓库名称
+     - `ADMIN_PASSWORD`: 博客管理员密码（如果启用了密码保护）
+   - 保存并部署
+
+### 环境变量说明
+
+| 变量名 | 必填 | 说明 |
+|--------|------|------|
+| GITHUB_TOKEN | 是 | GitHub Personal Access Token，用于访问仓库内容 |
+| GITHUB_OWNER | 是 | GitHub 用户名或组织名 |
+| GITHUB_REPO | 是 | 博客内容所在的仓库名称 |
+| ADMIN_PASSWORD | 否 | 博客管理员密码，仅在 enablePasswordProtection 为 true 时需要 |
+
+注意事项：
+- 环境变量在 Cloudflare Workers 的设置页面中配置
+- 修改环境变量后需要重新部署 Worker
+- 请妥善保管 GitHub Token，不要泄露给他人
+- 建议定期更换 GitHub Token 和管理员密码
+
+### 使用说明
+
+1. 文章管理
+   - 所有文章以 Markdown 格式存储在 GitHub 仓库中
+   - 支持通过 GitHub 直接管理文章
+   - 文章更新后会自动同步到博客
+
+2. 批处理工具使用
+   - `git_upload.bat`: 文章上传工具
+     - 双击运行即可启动交互式上传
+     - 自动检测文件变更
+     - 支持自定义提交信息
+     - 自动执行 git add、commit 和 push 操作
+     - 支持错误重试和状态显示
+   
+   - `git_delete.bat`: 文章删除工具
+     - 双击运行即可启动交互式删除
+     - 显示可删除的文件列表
+     - 支持批量删除操作
+     - 自动执行 git rm、commit 和 push 操作
+     - 操作前会进行确认提示
+
+3. 主题切换
+   - 点击右下角的主题切换按钮即可切换深色/浅色主题
+   - 主题设置会自动保存在本地
+
+4. 评论系统
+   - 内置评论功能
+   - 访客可以直接发表评论
+   - 支持管理员审核功能
+
+## 自定义
+
+1. 样式定义
+   - 在 `worker.js` 中的 `styles` 部分可以自定义 CSS 样式
+   - 支持深色和浅色主题的独立样式配置
+
+2. 古诗词配置
+   - 在 `worker.js` 中的 `POEMS` 数组可以自定义展示的古诗词
+
+## 技术栈
+
+- Cloudflare Workers
+- GitHub API
+- Vanilla JavaScript
+- CSS3
+- HTML5
+
+## 许可证
+
+ISC License
+
+## 作者
+
+BAOER
+
+## 贡献
+
+欢迎提交 Issue 和 Pull Request！
