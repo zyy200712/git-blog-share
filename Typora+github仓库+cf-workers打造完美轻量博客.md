@@ -187,7 +187,7 @@ GITHUB_TOKEN在登录github后访问
 
 ## 2、填入变量注意前后不要有空格
 
-## 3、推荐搭配typora+bili图床使用
+## 3、推荐搭配typora+bili图床使用（已经失效，还是使用自己的图床接口吧）
 
 [xlzy520/typora-plugin-bilibili: Typora粘贴图片自动上传到Bilibili图床，也可以自定义修改成任意其他图床接口。使用教程：https://b23.tv/urxCc3](https://github.com/xlzy520/typora-plugin-bilibili)
 
