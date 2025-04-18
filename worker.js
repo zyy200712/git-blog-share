@@ -1498,15 +1498,15 @@ const HTML_TEMPLATE = `
 </head>
 <body class="{{page_class}}">
     <header class="header">
-        <a href="https://github.com/1143520/git-blog" target="_blank" rel="noopener noreferrer">
+        <a href="https://bg.zcr4.ip-ddns.com" target="_blank" rel="noopener noreferrer">
     <img src="${CONFIG.favicon}" alt="站点图标" class="site-logo">
 </a>
         <div class="header-center">
             <a href="/">${CONFIG.title}</a>
         </div>
         <div class="header-right">
-            <a href="https://manji.1143520.xyz/" target="_blank" rel="noopener noreferrer">漫记</a>
-            <a href="https://home.1143520.xyz/" target="_blank" rel="noopener noreferrer">主页</a>
+            <a href="https://9.zcr3.ddns-ip.net/" target="_blank" rel="noopener noreferrer">博客</a>
+            <a href="https://da.zcr25.x10.mx/" target="_blank" rel="noopener noreferrer">导航</a>
         </div>
     </header>
     <div class="layout">
@@ -1521,7 +1521,7 @@ const HTML_TEMPLATE = `
         </aside>
     </div>
     <button class="back-top" aria-label="返回顶部">🏠</button>
-    <a href="https://liuyan.1143520.xyz/" target="_blank" class="comment-button" aria-label="留言板" rel="noopener noreferrer">📋</a>
+    <a href="https://n.zcr7.ip-ddns.com/" target="_blank" class="comment-button" aria-label="留言板" rel="noopener noreferrer">📋</a>
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">🔅</button>
     {{api_limit_info}}
 </body>
@@ -1910,7 +1910,7 @@ export default {
                 const randomPoem = POEMS[Math.floor(Math.random() * POEMS.length)];
                 const welcomeContent = `
                     <div style="text-align: center;">
-                        <h1 style="margin-bottom: 40px; color: var(--main-text-color);">欢迎访问我的博客🥝🍇🍅🥥🍉🎩💾📀🔭</h1>
+                        <h1 style="margin-bottom: 40px; color: var(--main-text-color);">皅皅🔭慈</h1>
                     </div>
                     <div class="welcome-poem">
                         <div class="poem-content">${randomPoem.content}</div>
