@@ -1,7 +1,7 @@
 // 博客配置
 const CONFIG = {
     title: '🕮 BAOER の BLOG 🕮',
-    favicon: 'https://pic.wtr.cc/i/2024/11/29/6749922b0967c.jpeg',
+    favicon: 'https://tc.r07.cloudns.be/截图20250418170311.png',
     enablePasswordProtection: true  // 设置为true时启用密码验证，false时禁用
 };
 
@@ -1498,7 +1498,7 @@ const HTML_TEMPLATE = `
 </head>
 <body class="{{page_class}}">
     <header class="header">
-        <a href="https://bg.zcr4.ip-ddns.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://dash.cloudflare.com/addfe9fc56c06acb158fd7b4883b478f/workers/services/view/git-blog-share/production/settings/" target="_blank" rel="noopener noreferrer">
     <img src="${CONFIG.favicon}" alt="站点图标" class="site-logo">
 </a>
         <div class="header-center">
