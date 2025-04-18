@@ -1521,7 +1521,7 @@ const HTML_TEMPLATE = `
         </aside>
     </div>
     <button class="back-top" aria-label="返回顶部">🏠</button>
-    <a href="https://n.zcr7.ip-ddns.com/" target="_blank" class="comment-button" aria-label="留言板" rel="noopener noreferrer">📋</a>
+    <a href="https://github.com/zcr07/git-blog-share/edit/main/worker.js" target="_blank" class="comment-button" aria-label="留言板" rel="noopener noreferrer">📋</a>
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">🔅</button>
     {{api_limit_info}}
 </body>
