@@ -2,7 +2,7 @@
 const CONFIG = {
     title: '舥舥🔭兹',
     favicon: 'https://tc.r07.cloudns.be/截图20250418170311.png',
-    enablePasswordProtection: false  // 设置为true时启用密码验证，false时禁用
+    enablePasswordProtection: true   // 设置为true时启用密码验证，false时禁用
 };
 
 // 古诗词数据
