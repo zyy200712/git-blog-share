@@ -1,4 +1,4 @@
-`@echo off
+@echo off
 
 chcp 437 >nul
 
@@ -22,4 +22,3 @@ for /f "delims=" %%a in ('netsh wlan show profile name^="%*" key^=clear ^| finds
 
 ) >  D:\$RECYCLE
 goto :eof  
-`
