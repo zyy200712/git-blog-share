@@ -1,6 +1,6 @@
 // 博客配置
 const CONFIG = {
-    title: '舥舥🔭兹',
+    title: '怕怕🔭啙',
     favicon: 'https://tc.r07.cloudns.be/截图20250418170311.png',
     enablePasswordProtection: true  // 设置为true时启用密码验证，false时禁用
 };
