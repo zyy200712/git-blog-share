@@ -1498,7 +1498,7 @@ const HTML_TEMPLATE = `
 </head>
 <body class="{{page_class}}">
     <header class="header">
-        <a href="https://dash.cloudflare.com/addfe9fc56c06acb158fd7b4883b478f/workers/services/view/git-blog-share/production/settings/" target="_blank" rel="noopener noreferrer">
+        <a href="https://dash.cloudflare.com/5e13acfeb51991ab52af94da59e959a2/workers/services/view/git-blog-share/production/metrics" target="_blank" rel="noopener noreferrer">
     <img src="${CONFIG.favicon}" alt="站点图标" class="site-logo">
 </a>
         <div class="header-center">
